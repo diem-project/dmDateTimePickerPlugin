@@ -1,0 +1,7 @@
+js:
+  dmDateTimePickerPlugin:
+    datetimepicker:                   jquery.datetimepicker
+
+css:
+  dmDateTimePickerPlugin:
+    datetimepicker:                   jquery.datetimepicker
