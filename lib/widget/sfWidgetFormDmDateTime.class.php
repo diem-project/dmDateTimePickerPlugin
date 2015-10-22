@@ -39,8 +39,6 @@ class sfWidgetFormDmDateTime extends sfWidgetFormI18nDate
       $default = array('year' => null, 'month' => null, 'day' => null, 'hour' => null, 'minute' => null);
 
       $value = (string) $value == (string) (integer) $value ? (integer) $value : strtotime($value);
-//      var_dump($value);
-//      var_dump($this->getOption('format'));
       if (false === $value)
       {
         $value = $default;
@@ -118,3 +116,4 @@ class sfWidgetFormDmDateTime extends sfWidgetFormI18nDate
     ));
   }
 }
+
