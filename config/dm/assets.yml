@@ -1,6 +1,6 @@
 js:
   dmDateTimePickerPlugin:
-    datetimepicker:                   jquery.datetimepicker
+    datetimepicker:                   jquery.datetimepicker.full.min
 
 css:
   dmDateTimePickerPlugin:
