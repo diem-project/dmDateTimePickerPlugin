@@ -69,7 +69,7 @@ class sfWidgetFormDmDateTime extends sfWidgetFormI18nDate
       array(
         'type' => 'text',
         'name' => $name,
-        'size' => 16,
+        'size' => isset($attributes['size']) ? $attributes['size'] : 16,
         'id' => $this->generateId($name),
         'class' => 'datetimepicker_me' . (isset($attributes['class']) ? ' ' . $attributes['class'] : ''),
         'value' => $formattedValue
