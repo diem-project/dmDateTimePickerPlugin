@@ -1,3 +1,4 @@
 [submodule "lib/vendor/datetimepicker"]
 	path = lib/vendor/datetimepicker
 	url = https://github.com/xdan/datetimepicker.git
+	branch = master
